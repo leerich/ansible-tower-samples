@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  gather_facts: no
+  
+  tasks:
+  - name: Ping all hosts
+    ping:
